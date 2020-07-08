@@ -5,7 +5,7 @@ Home: https://github.com/pytest-dev/pytest-cloud
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Distributed tests planner plugin for pytest testing framework.
 
