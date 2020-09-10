@@ -1,5 +1,5 @@
 {% set name = "pytest-cloud" %}
-{% set version = "5.0.1" %}
+{% set version = "5.0.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3a381b8f0c3718d1170dbeb264c8decc77891b48c2ff80ed832d67277ad21ee1
+  sha256: 717bb1680d3b98bc7bfc90ba5913d46fc157d06321dfe50d7de8aa3977f5ff87
 
 build:
   number: 0
