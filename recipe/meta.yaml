@@ -23,10 +23,11 @@ requirements:
     - psutil
     - pytest >=3.6.1
     - pytest-xdist >=1.26.0
-    - python
+    - python >=3.4
     - setuptools
     - six
     - timeout-decorator >=0.3.2
+    - virtualenv
 
 test:
   imports:
