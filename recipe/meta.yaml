@@ -1,5 +1,5 @@
 {% set name = "pytest-cloud" %}
-{% set version = "5.0.2" %}
+{% set version = "5.0.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 717bb1680d3b98bc7bfc90ba5913d46fc157d06321dfe50d7de8aa3977f5ff87
+  sha256: e52a27d2d3666af79a1c44d49c6c98297aec4af5b713c0ccbc807788e7b8e227
 
 build:
   number: 0
@@ -23,10 +23,11 @@ requirements:
     - psutil
     - pytest >=3.6.1
     - pytest-xdist >=1.26.0
-    - python
+    - python >=3.4
     - setuptools
     - six
     - timeout-decorator >=0.3.2
+    - virtualenv
 
 test:
   imports:
